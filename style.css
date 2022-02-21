@@ -69,7 +69,10 @@ header {
     position: absolute;
     top: 350px;
     background-color: black;
-    height: auto;
+}
+
+.mission h2, h4 {
+    margin: 15px;
 }
 
 /* --- Featured Secton --- */
