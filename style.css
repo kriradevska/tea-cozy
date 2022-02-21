@@ -72,7 +72,7 @@ header {
     height: auto;
 }
 
-/* --- Month Secton --- */
+/* --- Featured Secton --- */
 
 #featured {
     display: flex;
@@ -97,7 +97,6 @@ header {
     justify-content: center;
     opacity: 0.9;
     text-align: center;
-
 }
 
 .berry-img,
@@ -117,3 +116,8 @@ header {
 .bedford {
     margin-right: 30px;
 }
+
+.month-images h4 {
+    margin-top: 10px;
+}
+
