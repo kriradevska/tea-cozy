@@ -1,10 +1,10 @@
+
 body {
     background-color: black;
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
     opacity: 0.9;
-    ;
 }
 
 /* ---- Nav --- */
@@ -18,17 +18,18 @@ nav {
     top: 0px;
     z-index: 1;
     background-color: black;
+    overflow: hidden;
 }
 
 .logo-img {
     height: 50px;
-    margin-left: 10px; 
-    padding-top: 7px;
+    padding-left: 10px; 
+    padding-top: 10px;
 }
 
 .navg {
     float: right;
-    margin-right: 15px;
+    padding-right: 15px;
     
 }
 
@@ -42,11 +43,31 @@ nav {
     text-decoration: underline;
 }
 
+.navg a:hover {
+    color: #dfada0;
+}
+
+
 /* --- Header --- */
+
+header {
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
+}
 
 .backgr-img {
     height: 700px;
-    width: 1200px;
     position: relative;
-    margin-top: 70px;
+    margin-top: 69px;
+    
+}
+
+.mission {
+    width: 1200px;
+    text-align: center;
+    position: absolute;
+    top: 350px;
+    background-color: black;
+    
 }
