@@ -83,6 +83,37 @@ header {
 }
 
 .month {
-    text-align: center;
     width: 1000px;
+}
+
+.month-text {
+    text-align: center;
+    
+}
+
+.month-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    opacity: 0.9;
+    text-align: center;
+
+}
+
+.berry-img,
+.rum-img,
+.donuts-img,
+.myrtle-img, 
+.bedford-img {
+    height: 200px;
+    width: 300px;
+    opacity: 0.9;
+}
+
+.fall-berry,
+.rum,
+.donuts,
+.myrtle,
+.bedford {
+    margin-right: 30px;
 }
