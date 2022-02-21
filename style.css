@@ -1,4 +1,4 @@
-body {
+* {
     background-color: black;
     font-family: Helvetica;
     font-size: 22px;
@@ -9,7 +9,7 @@ body {
 
 /* ---- Header --- */
 
-header {
+nav {
     display: block;
     height: 69px;
     width: 100%;
@@ -20,19 +20,21 @@ header {
 .logo-img {
     height: 50px;
     margin-left: 10px; 
+    padding-top: 7px;
 }
 
-.nav {
+.navg {
     float: right;
     margin-right: 15px;
     
 }
 
-.nav li{
+.navg li{
     display: inline;
+    padding-right: 15px;
 }
 
-.nav a {
+.navg a {
     color: seashell;
     text-decoration: underline;
 }
