@@ -69,5 +69,20 @@ header {
     position: absolute;
     top: 350px;
     background-color: black;
-    
+    height: auto;
+}
+
+/* --- Month Secton --- */
+
+#featured {
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.month {
+    text-align: center;
+    width: 1000px;
 }
