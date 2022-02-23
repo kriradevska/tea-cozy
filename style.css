@@ -135,11 +135,11 @@ header {
     flex-wrap: wrap;
 }
 
-#locations h2 {
-    position: relative;
+#location-ttl {
     text-align: center;
-}
-    
+    position: relative;
+    bottom: 775px;
+    left: 505px;
 }
 
 .location-one,
@@ -148,5 +148,16 @@ header {
     background-color: black;
     opacity: 1;
     width: 300px;
+    padding: 10px 0px;
     text-align: center;
+    margin-right: 40px;
+}
+
+#locations-block {
+    position: relative;
+    bottom: 625px;
+    right: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
