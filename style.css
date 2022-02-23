@@ -124,3 +124,29 @@ header {
     margin-top: 10px;
 }
 
+/* --- Locations Section --- */
+
+#locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+#locations h2 {
+    position: relative;
+    text-align: center;
+}
+    
+}
+
+.location-one,
+.location-two,
+.location-three {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    text-align: center;
+}
