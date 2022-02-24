@@ -137,9 +137,9 @@ header {
 
 #location-ttl {
     text-align: center;
-    position: relative;
-    bottom: 775px;
-    left: 505px;
+    position: absolute;
+    transform: translate(-20px, -270px);
+
 }
 
 .location-one,
@@ -154,10 +154,24 @@ header {
 }
 
 #locations-block {
-    position: relative;
-    bottom: 625px;
-    right: 70px;
-    display: flex;
+    position: absolute;
+    display:flex;
     justify-content: space-between;
     flex-direction: row;
+    transform: translate(0, -100px);
+}
+
+#contact {
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    text-align: center;
+    opacity: 1;
+    width: 100%;
+    transform: translate(0, 300px);
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
 }
